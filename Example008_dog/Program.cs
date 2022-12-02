@@ -1,4 +1,4 @@
-﻿double time = 0, distanse  =1000;
+﻿double time , distanse  =1000;
 int count = 1,
 friend =2,
 firstFriendSpeed = 1,
