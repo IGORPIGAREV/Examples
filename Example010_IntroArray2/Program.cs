@@ -5,6 +5,10 @@ int find = 23 ;
 int index = 0;
 while (index<n)
 {
-    if (array[index] == find) Console.WriteLine("Порядковый номер:"+index);
+    if (array[index] == find) 
+    {
+        Console.WriteLine("Порядковый номер:"+index);
+        break;// останавливает цикал
+    }
     index++;//index=index+1;
 }    
